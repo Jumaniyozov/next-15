@@ -1,6 +1,8 @@
 type PageProps = {}
 
-export default function Page(props: PageProps) {
+export default async function Page(props: PageProps) {
+
+
     return (
         <div>Customers</div>
     );
